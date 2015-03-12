@@ -1,0 +1,156 @@
+/*---------------------------------------------------------------------------
+	[Layouts]
+---------------------------------------------------------------------------*/
+.wrap {
+  position: relative;
+  overflow: hidden;
+}
+.hdr {
+  font-family: "PT Sans",sans-serif;
+  background: url(../img/hdr-bg.png) no-repeat 50% 0;
+  width: 100%;
+  height: 90px;
+
+  &__logo {
+    padding-top: 28px;
+    padding-left: 8px;
+    display:block;
+    width:700px;
+    height:43px;
+    white-space:nowrap;
+
+    .lt-ie9 & {
+      width:750px;
+    }
+
+
+    a {
+      display:block;
+      width:100%;
+      heigth:100%;
+
+      &:hover {
+        text-decoration:none !important;
+        border:0 !important;
+      }
+    }
+
+
+  }
+  &__logo-pic {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin-right: 17px;
+    .border-radius(50%);
+    background: #0a3866;
+
+    .ico_logo {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -8px;
+      margin-top: -9px;
+    }
+  }
+  &__logo-txt {
+    display: inline-block;
+    vertical-align: middle;
+
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #537eaa;
+  }
+  &__logo-name {
+    display:block;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 3px;
+    color: #0a3866;
+    text-transform: none;
+  }
+}
+.lt-ie9 .ftr__right {
+  width: 383px;
+}
+.ftr {
+  font-family: "PT Sans",sans-serif;
+  width: 100%;
+  background: #26334d;
+
+  a {
+    color:@white;
+    border-bottom:1px dotted @white;
+
+    &:hover {
+      color:#1e9cfd;
+      border-color:#1e9cfd;
+    }
+  }
+
+  &__inner {
+    padding: 23px 9px 21px;
+  }
+  .ico_logo {
+    .ico_logo-ftr();
+  }
+  &__left {
+    float: left;
+    width: 770px;
+  }
+  &__right {
+    float: right;
+    width: 364px;
+    margin-top: -5px;
+
+    p {
+      font-size: 14px;
+      line-height: 25px;
+      color: #f0f9fc;
+
+      strong {
+        font-size: 16px;
+        line-height: 25px;
+        display: block;
+      }
+    }
+  }
+  .hdr__logo-pic {
+    background: #d4ad0f;
+  }
+  .hdr__logo-txt {
+
+    h3 {
+      color: #fff;
+    }
+    p {
+      color: #f0f9fc;
+    }
+  }
+}
+//global case
+.case {
+	width:1180px;
+    padding: 0 10px;
+	margin:0 auto;
+
+	&:extend(.clr);
+}
+
+.l {
+	width:100%;
+	display:inline-block;
+
+	.l-col1 {
+		float:left;
+		width:20%;
+	}
+
+	.l-col2 {
+		float:right;
+		width:70%;
+	}
+}

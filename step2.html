@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link type="image/x-icon" href="favicon.ico" rel="icon"/>
+    <link href="favicon.ico" rel="shortcut icon"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+	<script src="js/modernizr.custom.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+
+    <script src="js/jquery.jscrollpane.min.js"></script>
+	<script src="js/main.js"></script>
+    <script src="js/htmlStateSwitcher.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.scroll-pane').jScrollPane();
+        });
+    </script>
+
+</head>
+
+<body>
+<div class="wrap">
+	<div class="hdr">
+        <div class="case">
+          <div class="hdr__logo">
+            <a href="#">
+              <span class="hdr__logo-pic"><i class="ico ico_logo"></i></span>
+                <span class="hdr__logo-txt">
+                    <strong class="hdr__logo-name">Люстраційний комітет суддів</strong>
+                    <span>ТИМЧАСОВА СПЕЦІАЛЬНА КОМІСІЯ З ПЕРЕВІРКИ СУДДІВ ЗАГАЛЬНОЇ ЮРИСДИКЦІЇ ЯКА ДІЄ ПРИ ВІЩІЙ РАДІ ЮСТИЦІЇ</span>
+                </span>
+            </a>
+          </div>
+        </div>
+
+    </div>
+    <div class="steps">
+        <div class="case line">
+            <div class="step step1 step-active"><span class="step__num">1</span><p class="step__ttl">Визначення неправомірного рішення</p></div>
+            <div class="step step2 step-active"><span class="step__num">2</span><p class="step__ttl">Оформлення заяви</p></div>
+            <div class="step step3"><span class="step__num">3</span><p class="step__ttl">Інструкція по оформленню листа</p></div>
+        </div>
+    </div>
+    <div class="cnt">
+        <div class="case">
+            <div class="form" data-htmlstate="Фiзичне">
+                <h1 class="form__ttl">Будь ласка, заповніть форму заяви</h1>
+                <ul class="form__select">
+                    <li class="form__select-item"><i class="definition__select-icon definition__select-icon-active"></i><p class="form__select-ttl">Я фізичне лице</p></li>
+                    <li class="form__select-item"><i class="definition__select-icon"></i><p class="form__select-ttl">Я юридичне лице</p></li>
+                </ul>
+                <div class="form__details">
+                    <div class="form__section">
+                        <div class="form__details-ttl">Ваші дані:</div>
+                        <div class="form__details-row line form__details-row-declarant">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Заявник (ПIБ) <span class="form__details-star">*</span></p></div>
+                            <div class="form__details-right line">
+                                <div class="b-input"><input class="b-input-810" type="text"/></div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-address">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Адреса місця проживання <span class="form__details-star">*</span></p></div>
+                            <div class="form__details-right line">
+                                <div class="fdr_l">
+                                    <div class="b-input-box">
+                                        <p class="b-input-ttl">Місто</p>
+                                        <div class="b-input"><input class="b-input-400" type="text"/></div>
+                                    </div>
+                                    <div class="b-input-box">
+                                        <p class="b-input-ttl">Вулиця</p>
+                                        <div class="b-dropdown b-dropdown_active">
+                                            <div class="b-dropdown__selected">
+                                                <span class="b-dropdown__selected-txt">вул.</span>
+                                            </div>
+                                            <div class="b-dropdown__expand">
+                                                <div class="scroll-pane" style="height:204px;">
+                                                    <a href="#" class="b-dropdown__item">вул.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">вул.</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-input b-input-streetbox dropdown-street-show">
+
+                                            <input class="b-input-400" type="text"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fdr_r">
+                                    <div class="b-input-box-v">
+                                        <p class="b-input-ttl">Будинок</p>
+                                        <div class="b-input"><input class="b-input-100" type="text"/></div>
+                                    </div>
+                                    <div class="b-input-box-v">
+                                        <p class="b-input-ttl">Квартира</p>
+                                        <div class="b-input"><input class="b-input-100" type="text"/></div>
+                                    </div>
+                                    <div class="b-input-box-v">
+                                        <p class="b-input-ttl">Iндекс</p>
+                                        <div class="b-input"><input class="b-input-121" type="text"/></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-phone">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Номер телефону <span class="form__details-star">*</span></p></div>
+                            <div class="form__details-right line">
+                                <div class="form__details-inner line">
+                                    <div class="fdr_l">
+                                        <div class="b-input-box b-input-codebox">
+                                            <div class="b-input"><span class="b-input-code">+38</span><input class="b-input-400" type="text"/></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="form__details-inner line">
+                                    <div class="fdr_l">
+                                        <div class="b-input-box b-input-codebox">
+                                            <div class="b-input"><span class="b-input-code">+38</span><input class="b-input-400" type="text"/></div>
+                                        </div>
+
+                                    </div>
+                                    <div class="fdr_r">
+                                        <div class="form__details-add">
+                                            <i class="form__details-add-icon"></i>
+                                            <a class="form__details-add-link" href="#">Додати ще</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-email">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Адрес електронної пошти</p></div>
+                            <div class="form__details-right line">
+                                <div class="form__details-inner line">
+                                    <div class="fdr_l">
+                                        <div class="b-input-box">
+                                            <div class="b-input"><input class="b-input-400" type="text"/></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="form__details-inner line">
+                                    <div class="fdr_l">
+                                        <div class="b-input-box">
+                                            <div class="b-input"><input class="b-input-400" type="text"/></div>
+                                        </div>
+
+                                    </div>
+                                    <div class="fdr_r">
+                                        <div class="form__details-add">
+                                            <i class="form__details-add-icon"></i>
+                                            <a class="form__details-add-link" href="#">Додати ще</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__section form__section-info-about-judge">
+                        <div class="form__details-ttl">Інформація про суддю:</div>
+                        <div class="form__details-row line form__details-row-initials_judge">
+                            <div class="form__details-left">
+                              <p class="form__details-main_ttl">ПІБ судді (суддів),<br/ > щодо якого (яких) має бути<br/ > проведена перевірка, його<br/ > посади <span class="form__details-star">*</span>
+                                <i class="form__details-help">
+                                    <span class="form__details-help-dropdown">
+                                        <img src="img/img09.jpg" width="232" height="329" alt=""/>
+                                    </span>
+                                </i>
+                              </p>
+                            </div>
+                            <div class="form__details-right line">
+                                <div class="b-input"><input class="b-input-810" placeholder="Прізвище Ім'я Побатькові" type="text"/></div>
+                                <div class="b-input"><input class="b-input-810" placeholder="Прізвище Ім'я Побатькові" type="text"/></div>
+                                <div class="form__details-add">
+                                    <i class="form__details-add-icon"></i>
+                                    <a href="#" class="form__details-add-link">Додати ще</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-address_judge">
+                            <div class="form__details-left">
+                              <p class="form__details-main_ttl">Повна назва суду, в якому<br /> працює відповідний суддя<br /> (судді)  <span class="form__details-star">*</span>
+                                <i class="form__details-help">
+                                    <span class="form__details-help-dropdown">
+                                        <img src="img/img09.jpg" width="232" height="329" alt=""/>
+                                    </span>
+                                </i>
+                              </p>
+                            </div>
+                            <div class="form__details-right line">
+                                <!--<div class="b-input"><input class="b-input-810" placeholder="Повна назва суду" type="text"/></div>
+                                <div class="b-input"><input class="b-input-810" placeholder="Повна назва суду" type="text"/></div>-->
+                                <div class="b-dropdown b-dropdown_active">
+                                    <div class="b-dropdown__selected">
+                                        <span class="b-dropdown__selected-txt">Назва1</span>
+                                    </div>
+                                    <div class="b-dropdown__expand">
+                                        <div class="scroll-pane" style="height:230px;">
+                                            <a href="#" class="b-dropdown__item">Назва1</a>
+                                            <a href="#" class="b-dropdown__item">Назва2</a>
+                                            <a href="#" class="b-dropdown__item">Назва3</a>
+                                            <a href="#" class="b-dropdown__item">Назва4</a>
+                                            <a href="#" class="b-dropdown__item">Назва5</a>
+                                            <a href="#" class="b-dropdown__item">Назва6</a>
+                                            <a href="#" class="b-dropdown__item">Назва7</a>
+                                            <a href="#" class="b-dropdown__item">Назва8</a>
+                                            <a href="#" class="b-dropdown__item">Назва9</a>
+                                            <a href="#" class="b-dropdown__item">Назва10</a>
+                                            <a href="#" class="b-dropdown__item">Назва11</a>
+                                            <a href="#" class="b-dropdown__item">Назва12</a>
+                                            <a href="#" class="b-dropdown__item">Назва13</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-dropdown">
+                                    <div class="b-dropdown__selected">
+                                        <span class="b-dropdown__selected-txt">Назва1</span>
+                                    </div>
+                                    <div class="b-dropdown__expand">
+                                        <div class="scroll-pane" style="height:230px;">
+                                            <a href="#" class="b-dropdown__item">Назва1</a>
+                                            <a href="#" class="b-dropdown__item">Назва2</a>
+                                            <a href="#" class="b-dropdown__item">Назва3</a>
+                                            <a href="#" class="b-dropdown__item">Назва4</a>
+                                            <a href="#" class="b-dropdown__item">Назва5</a>
+                                            <a href="#" class="b-dropdown__item">Назва6</a>
+                                            <a href="#" class="b-dropdown__item">Назва7</a>
+                                            <a href="#" class="b-dropdown__item">Назва8</a>
+                                            <a href="#" class="b-dropdown__item">Назва9</a>
+                                            <a href="#" class="b-dropdown__item">Назва10</a>
+                                            <a href="#" class="b-dropdown__item">Назва11</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                               <!-- <div class="form__details-add">
+                                    <i class="form__details-add-icon"></i>
+                                    <a href="#" class="form__details-add-link">Додати ще</a>
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-number_resolution">
+                            <div class="form__details-left">
+                              <p class="form__details-main_ttl">Номер постанови судового<br /> рішення, що становлять зміст<br /> перевірки  <span class="form__details-star">*</span>
+                                <i class="form__details-help">
+                                    <span class="form__details-help-dropdown">
+                                        <img src="img/img09.jpg" width="232" height="329" alt=""/>
+                                    </span>
+                                </i>
+                              </p>
+                            </div>
+                            <div class="form__details-right line">
+                                <div class="b-input"><input class="b-input-180" placeholder="Повна назва суду" type="text"/></div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-rationale_for_audit">
+                            <div class="form__details-left">
+                              <p class="form__details-main_ttl">Обгрунтування необхідності<br /> проведення перевірки<br/> щодо відповідного судді<br/> (суддів)<!-- <span class="form__details-star">*</span>--></p>
+                                <p class="form__details-main-info">Правильний текст<br />обгрунтування згенерований<br />для заяви у вашому випадку.<br />Ви можете доповнити<br />чи редагувати текст</p>
+                            </div>
+                            <div class="form__details-right line">
+                                <div class="b-input">
+                                    <textarea class="b-input-810" name="" id="" cols="30" rows="10">
+Тимчасова спеціальна комісія з перевірки суддів судів загальної юрисдикції діє при Вищій раді юстиції.
+Метою перевірки є підвищення авторитету судової влади України та довіри громадян до судової гілки влади,відновлення законності і справедливості.
+
+Тимчасова спеціальна комісія (далі – ТСК) діятиме протягом року у складі 15 осіб. Суб’єктами її формування
+є Пленум Верховного Суду України, Урядовий уповноважений з питань антикорупційної політики та Верховна Рада України.
+Тимчасова спеціальна комісія з перевірки суддів судів загальної юрисдикції діє при Вищій раді юстиції.
+Метою перевірки є підвищення авторитету судової влади України та довіри громадян до судової гілки влади,відновлення законності і справедливості.</textarea>
+                                </div>
+                                <div class="comments">
+                                  <h3>Для кожної із причин перевірки, підставою її притягнення можуть бути:</h3>
+                                  <ul class="comments__list">
+                                    <li>Порушення норм процесуального права: неповідомлення сторін, прийняття позову до провадження незважаючи на відсутність доказів сплати судового збору, порушення порядку автоматизованого розподілу справ, прийняття рішення на підставі припущень, без наявності у матеріалах належних і допустимих доказів; порушення загальних засад здійснення судочинства тощо.</li>
+                                    <li>Упередженість суду (надання процесуальних переваг одній стороні над іншою, безпідставне невжиття заходів щодо відводу, самовідводу);</li>
+                                    <li>Порушення норм матеріального права - застосування до спірних правовідносин законів, підзаконних нормативно-правових актів, які не підлягали застосуванню</li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__section form__section-info-please">
+                    <div class="form__details-ttl">На підставі викладеного прошу:</div>
+                    <div class="form__details-row line form__details-row-violation">
+                      <p class="form__details-main_ttl form__details-main_ttl_wide">Провести перевірку на предмет порушення присяги суддею (ПІБ)</p>
+                    </div>
+                    <div class="form__details-row line form__details-row-take-conclusion">
+                        <div class="form__details-left"><p class="form__details-main_ttl">Прийняти висновок про<span class="form__details-star">*</span></p></div>
+                        <div class="form__details-right line">
+                            <div class="b-input"><input class="b-input-810" type="text"/></div>
+                            <div class="comments">
+                              <dl class="comments__example">
+                                <dt>Наприклад:</dt>
+                                <dd>Прийняти висновок про порушення присяги судді суддею №-го суду;</dd>
+                                <dt>або:</dt>
+                                <dd>Прийняти висновок про наявність у діях судді №-го суду підстав для притягнення судді
+                                  до дисциплінарної відповідальності;</dd>
+                              </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__details-row line form__details-row-refer-conclusion">
+                        <div class="form__details-left"><p class="form__details-main_ttl">Направити висновок Тимчасової спеціальної комісії про <span class="form__details-star">*</span></p></div>
+                        <div class="form__details-right line">
+                            <div class="b-input"><input class="b-input-810" type="text"/></div>
+                            <div class="comments">
+                              <dl class="comments__example">
+                                <dt>Наприклад:</dt>
+                                <dd>Направити висновок про порушення присяги судді No-го суду разом із матеріалами перевірки Вищій раді юстиції;</dd>
+                                <dt>або:</dt>
+                                <dd>Направити висновок про наявність у діях судді No-го суду підстав для притягнення судді до дисциплінарної відповідальності Вищій кваліфікаційній комісії суддів України / Вищій раді юстиції.</dd>
+                              </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="form__section form__section-applications">
+                        <div class="form__details-row line form__details-row-copy-decision form__details-row_head">
+                          <div class="form__details-left"><div class="form__details-ttl">Додатки:</div></div>
+                          <div class="form__details-right line">
+                            <p>Додати до заяви копії судового рішення, прийнятого суддею, про перевірку якого подається заява, а якщо справа розглядалася в апеляційному чи касаційному порядку, - також копії рішень апеляційної та касаційної інстанцій у цих справах.</p>
+                          </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-copy-decision">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Копія рішення по справі № <span class="form__details-star">*</span></p></div>
+                            <div class="form__details-right line">
+                              <div class="b-input b-input_short"><input type="text" class="b-input-200"><i class="b-input-reset"></i></div>
+                              <div class="form__details-add">
+                                <i class="form__details-add-icon"></i>
+                                <a href="#" class="form__details-add-link">Додати ще один додаток</a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-copy-decision">
+                          <div class="form__details-left"><p class="form__details-main_ttl">Повна назва додатку №2</p></div>
+                          <div class="form__details-right line">
+                            <div class="b-input"><input class="b-input-810" type="text" value="1731217"/><i class="b-input-reset"></i></div>
+                            <div class="form__details-add">
+                              <i class="form__details-add-icon"></i>
+                              <a href="#" class="form__details-add-link">Додати ще один додаток</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="form__details-row line form__details-row-copy-decision" style="display:none;">
+                          <div class="form__details-left"><p class="form__details-main_ttl">Повна назва додатку №3</p></div>
+                          <div class="form__details-right line">
+                            <div class="b-input"><input class="b-input-810" type="text"/><i class="b-input-reset"></i></div>
+                            <div class="form__details-add">
+                              <i class="form__details-add-icon"></i>
+                              <a href="#" class="form__details-add-link">Додати ще один додаток</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="form__details-row line form__details-row-number-copy-decision">
+                            <div class="form__details-left">
+                              <p class="form__details-main_ttl">Якщо є, номер копії рішень<br /> апеляційної та касаційної<br /> інстанцій у цих справах, якщо<br /> справа розглядалася в<br /> апеляційному чи касаційному<br /> порядку <span class="form__details-star">*</span>
+                                <i class="form__details-help">
+                                    <span class="form__details-help-dropdown">
+                                        <img src="img/img09.jpg" width="232" height="329" alt=""/>
+                                    </span>
+                                </i>
+                              </p>
+                            </div>
+                            <div class="form__details-right line">
+                                <div class="fdr_l">
+                                    <div class="b-input-box">
+                                        <div class="b-input"><input type="text" class="b-input-180"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__upload">
+                        <a class="btn-upload btn-upload_loading" href="#">
+                            <i class="btn-upload__icon"></i><p class="btn-upload__ttl">Заява готова! Отримати файл</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="form" data-htmlstate="Юридичне">
+                <h1 class="form__ttl">Будь ласка, заповніть форму заяви</h1>
+                <ul class="form__select">
+                    <li class="form__select-item"><i class="definition__select-icon"></i><p class="form__select-ttl">Я фізичне лице</p></li>
+                    <li class="form__select-item"><i class="definition__select-icon definition__select-icon-active"></i><p class="form__select-ttl">Я юридичне лице</p></li>
+                </ul>
+                <div class="form__details">
+                    <div class="form__section">
+                        <div class="form__details-ttl">Ваші дані:</div>
+                        <div class="form__details-row line form__details-row-declarant">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Найменування <span class="form__details-star">*</span></p></div>
+                            <div class="form__details-right line">
+                                <div class="b-input"><input class="b-input-810" type="text"/></div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-address">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Адреса місцезнаходження <span class="form__details-star">*</span></p></div>
+                            <div class="form__details-right line">
+                                <div class="fdr_l">
+                                    <div class="b-input-box">
+                                        <p class="b-input-ttl">Місто</p>
+                                        <div class="b-input"><input class="b-input-400" type="text"/></div>
+                                    </div>
+                                    <div class="b-input-box">
+                                        <p class="b-input-ttl">Вулиця</p>
+                                        <div class="b-dropdown b-dropdown_active">
+                                            <div class="b-dropdown__selected">
+                                                <span class="b-dropdown__selected-txt">вул.</span>
+                                            </div>
+                                            <div class="b-dropdown__expand">
+                                                <div class="scroll-pane" style="height:204px;">
+                                                    <a href="#" class="b-dropdown__item">вул.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">просп.</a>
+                                                    <a href="#" class="b-dropdown__item">вул.</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="b-input b-input-streetbox dropdown-street-show">
+                                            <!--<span class="b-input-street">вул.<i class="b-input-street__line"></i></span>
+                                            <div class="b-input-dropdown-street">
+                                                <div class="scroll-pane" style="height: 204px">
+                                                    <ul class="b-input-dropdown-street__list">
+                                                        <li class="b-input-dropdown-street__item"><p>просп.</p></li>
+                                                        <li class="b-input-dropdown-street__item"><p>просп.</p></li>
+                                                        <li class="b-input-dropdown-street__item"><p>просп.</p></li>
+                                                        <li class="b-input-dropdown-street__item"><p>просп.</p></li>
+                                                        <li class="b-input-dropdown-street__item"><p>просп.</p></li>
+                                                        <li class="b-input-dropdown-street__item"><p>просп.</p></li>
+                                                        <li class="b-input-dropdown-street__item"><p>просп.</p></li>
+                                                        <li class="b-input-dropdown-street__item"><p>просп.</p></li>
+                                                        <li class="b-input-dropdown-street__item"><p>просп.</p></li>
+                                                        <li class="b-input-dropdown-street__item"><p>просп.</p></li>
+                                                        <li class="b-input-dropdown-street__item"><p>просп.</p></li>
+
+                                                    </ul>
+                                                </div>
+
+                                            </div>-->
+                                            <input class="b-input-400" type="text"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fdr_r">
+                                    <div class="b-input-box-v">
+                                        <p class="b-input-ttl">Будинок</p>
+                                        <div class="b-input"><input class="b-input-100" type="text"/></div>
+                                    </div>
+                                    <div class="b-input-box-v">
+                                        <p class="b-input-ttl">Квартира</p>
+                                        <div class="b-input"><input class="b-input-100" type="text"/></div>
+                                    </div>
+                                    <div class="b-input-box-v">
+                                        <p class="b-input-ttl">Iндекс</p>
+                                        <div class="b-input"><input class="b-input-121" type="text"/></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-phone">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Номер телефону <span class="form__details-star">*</span></p></div>
+                            <div class="form__details-right line">
+                                <div class="form__details-inner line">
+                                    <div class="fdr_l">
+                                        <div class="b-input-box">
+                                            <div class="b-input"><span class="b-input-code">+38</span><input class="b-input-400" type="text"/></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__details-inner line">
+                                    <div class="fdr_l">
+                                        <div class="b-input-box">
+                                            <div class="b-input"><span class="b-input-code">+38</span><input class="b-input-400" type="text"/></div>
+                                        </div>
+                                    </div>
+                                    <div class="fdr_r">
+                                        <div class="form__details-add">
+                                            <i class="form__details-add-icon"></i>
+                                            <a class="form__details-add-link" href="#">Додати ще</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-email">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Адрес електронної пошти</p></div>
+                            <div class="form__details-right line">
+                                <div class="form__details-inner line">
+                                    <div class="fdr_l">
+                                        <div class="b-input-box">
+                                            <div class="b-input"><input class="b-input-400" type="text"/><i class="b-input-reset"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__details-inner line">
+                                    <div class="fdr_l">
+                                        <div class="b-input-box">
+                                            <div class="b-input"><input class="b-input-400" type="text"/><i class="b-input-reset"></i></div>
+                                        </div>
+
+                                    </div>
+                                    <div class="fdr_r">
+                                        <div class="form__details-add">
+                                            <i class="form__details-add-icon"></i>
+                                            <a class="form__details-add-link" href="#">Додати ще</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__section form__section-info-about-judge">
+                        <div class="form__details-ttl">Інформація про суддю:</div>
+                        <div class="form__details-row line form__details-row-initials_judge">
+                            <div class="form__details-left">
+                              <p class="form__details-main_ttl">ПІБ судді (суддів),<br/ > щодо якого (яких) має бути<br/ > проведена перевірка, його<br/ > посади <span class="form__details-star">*</span>
+                                <i class="form__details-help">
+                                    <span class="form__details-help-dropdown">
+                                        <img src="img/img09.jpg" width="232" height="329" alt=""/>
+                                    </span>
+                                </i>
+                              </p>
+                            </div>
+                            <div class="form__details-right line">
+                                <div class="b-input"><input class="b-input-810 b-input-error" placeholder="Прізвище Ім'я Побатькові" type="text"/></div>
+                                <div class="b-input"><input class="b-input-810 b-input-error" placeholder="Прізвище Ім'я Побатькові" type="text"/></div>
+                                <div class="form__details-add">
+                                    <i class="form__details-add-icon"></i>
+                                    <a href="#" class="form__details-add-link">Додати ще</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-address_judge">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Повна назва суду, в якому<br /> працює відповідний суддя<br /> (судді)
+                                <span class="form__details-star">*</span>
+                                <i class="form__details-help">
+                                    <span class="form__details-help-dropdown">
+                                        <img src="img/img09.jpg" width="232" height="329" alt=""/>
+                                    </span>
+                                </i>
+                            </p>
+                            </div>
+                            <div class="form__details-right line">
+                               <!-- <div class="b-input"><input class="b-input-810" placeholder="Повна назва суду" type="text"/></div>
+                                <div class="b-input"><input class="b-input-810" placeholder="Повна назва суду" type="text"/></div>-->
+                                <div class="b-dropdown">
+                                    <div class="b-dropdown__selected">
+                                        <span class="b-dropdown__selected-txt">Назва1</span>
+                                    </div>
+                                    <div class="b-dropdown__expand">
+                                        <div class="scroll-pane" style="height:230px;">
+                                            <a href="#" class="b-dropdown__item">Назва1</a>
+                                            <a href="#" class="b-dropdown__item">Назва2</a>
+                                            <a href="#" class="b-dropdown__item">Назва3</a>
+                                            <a href="#" class="b-dropdown__item">Назва4</a>
+                                            <a href="#" class="b-dropdown__item">Назва5</a>
+                                            <a href="#" class="b-dropdown__item">Назва6</a>
+                                            <a href="#" class="b-dropdown__item">Назва7</a>
+                                            <a href="#" class="b-dropdown__item">Назва8</a>
+                                            <a href="#" class="b-dropdown__item">Назва9</a>
+                                            <a href="#" class="b-dropdown__item">Назва10</a>
+                                            <a href="#" class="b-dropdown__item">Назва11</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-dropdown">
+                                    <div class="b-dropdown__selected">
+                                        <span class="b-dropdown__selected-txt">Назва1</span>
+                                    </div>
+                                    <div class="b-dropdown__expand">
+                                        <div class="scroll-pane" style="height:230px;">
+                                            <a href="#" class="b-dropdown__item">Назва1</a>
+                                            <a href="#" class="b-dropdown__item">Назва2</a>
+                                            <a href="#" class="b-dropdown__item">Назва3</a>
+                                            <a href="#" class="b-dropdown__item">Назва4</a>
+                                            <a href="#" class="b-dropdown__item">Назва5</a>
+                                            <a href="#" class="b-dropdown__item">Назва6</a>
+                                            <a href="#" class="b-dropdown__item">Назва7</a>
+                                            <a href="#" class="b-dropdown__item">Назва8</a>
+                                            <a href="#" class="b-dropdown__item">Назва9</a>
+                                            <a href="#" class="b-dropdown__item">Назва10</a>
+                                            <a href="#" class="b-dropdown__item">Назва11</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                               <!-- <div class="form__details-add">
+                                    <i class="form__details-add-icon"></i>
+                                    <a href="#" class="form__details-add-link">Додати ще</a>
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-number_resolution">
+                            <div class="form__details-left">
+                              <p class="form__details-main_ttl">Номер постанови судового<br /> рішення, що становлять зміст<br /> перевірки  <span class="form__details-star">*</span>
+                                <i class="form__details-help">
+                                    <span class="form__details-help-dropdown">
+                                        <img src="img/img09.jpg" width="232" height="329" alt=""/>
+                                    </span>
+                                </i>
+                              </p>
+                            </div>
+                            <div class="form__details-right line">
+                                <div class="b-input"><input class="b-input-180" placeholder="Повна назва суду" type="text"/></div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-rationale_for_audit">
+                            <div class="form__details-left">
+                                <p class="form__details-main_ttl">Обгрунтування необхідності<br /> проведення перевірки<br/> щодо відповідного судді<br/> (суддів)<!-- <span class="form__details-star">*</span>--></p>
+                                <p class="form__details-main-info">Правильний текст<br />обгрунтування згенерований<br />для заяви у вашому випадку.<br />Ви можете доповнити<br />чи редагувати текст</p>
+                            </div>
+                            <div class="form__details-right line">
+                                <div class="b-input">
+                                    <textarea class="b-input-810" name="" id="" cols="30" rows="10">
+Тимчасова спеціальна комісія з перевірки суддів судів загальної юрисдикції діє при Вищій раді юстиції.
+Метою перевірки є підвищення авторитету судової влади України та довіри громадян до судової гілки влади,відновлення законності і справедливості.
+
+Тимчасова спеціальна комісія (далі – ТСК) діятиме протягом року у складі 15 осіб. Суб’єктами її формування
+є Пленум Верховного Суду України, Урядовий уповноважений з питань антикорупційної політики та Верховна Рада України.
+Тимчасова спеціальна комісія з перевірки суддів судів загальної юрисдикції діє при Вищій раді юстиції.
+Метою перевірки є підвищення авторитету судової влади України та довіри громадян до судової гілки влади,відновлення законності і справедливості.</textarea>
+                                </div>
+                                <div class="comments">
+                                  <h3>Для кожної із причин перевірки, підставою її притягнення можуть бути:</h3>
+                                  <ul class="comments__list">
+                                    <li>Порушення норм процесуального права: неповідомлення сторін, прийняття позову до провадження незважаючи на відсутність доказів сплати судового збору, порушення порядку автоматизованого розподілу справ, прийняття рішення на підставі припущень, без наявності у матеріалах належних і допустимих доказів; порушення загальних засад здійснення судочинства тощо.</li>
+                                    <li>Упередженість суду (надання процесуальних переваг одній стороні над іншою, безпідставне невжиття заходів щодо відводу, самовідводу);</li>
+                                    <li>Порушення норм матеріального права - застосування до спірних правовідносин законів, підзаконних нормативно-правових актів, які не підлягали застосуванню</li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__section form__section-info-please">
+                        <div class="form__details-ttl">На підставі викладеного прошу:</div>
+                        <div class="form__details-row line form__details-row-violation">
+                          <p class="form__details-main_ttl form__details-main_ttl_wide">Провести перевірку на предмет порушення присяги суддею (ПІБ) </p>
+                        </div>
+                        <div class="form__details-row line form__details-row-take-conclusion">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Прийняти висновок про<span class="form__details-star">*</span></p></div>
+                            <div class="form__details-right line">
+                                <div class="b-input"><input class="b-input-810" type="text"/></div>
+                                <div class="comments">
+                                  <dl class="comments__example">
+                                    <dt>Наприклад:</dt>
+                                    <dd>Прийняти висновок про порушення присяги судді суддею №-го суду;</dd>
+                                    <dt>або:</dt>
+                                    <dd>Прийняти висновок про наявність у діях судді №-го суду підстав для притягнення судді
+                                      до дисциплінарної відповідальності;</dd>
+                                  </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-refer-conclusion">
+                            <div class="form__details-left"><p class="form__details-main_ttl">Направити висновок Тимчасової спеціальної комісії про <span class="form__details-star">*</span></p></div>
+                            <div class="form__details-right line">
+                                <div class="b-input"><input class="b-input-810" type="text"/></div>
+                                <div class="comments">
+                                  <dl class="comments__example">
+                                    <dt>Наприклад:</dt>
+                                    <dd>Направити висновок про порушення присяги судді No-го суду разом із матеріалами перевірки Вищій раді юстиції;</dd>
+                                    <dt>або:</dt>
+                                    <dd>Направити висновок про наявність у діях судді No-го суду підстав для притягнення судді до дисциплінарної відповідальності Вищій кваліфікаційній комісії суддів України / Вищій раді юстиції.</dd>
+                                  </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__section form__section-applications">
+
+                        <div class="form__details-row line form__details-row-copy-decision form__details-row_head">
+                          <div class="form__details-left"><div class="form__details-ttl">Додатки:</div></div>
+                          <div class="form__details-right line">
+                            <p>Додати до заяви копії судового рішення, прийнятого суддею, про перевірку якого подається заява, а якщо справа розглядалася в апеляційному чи касаційному порядку, - також копії рішень апеляційної та касаційної інстанцій у цих справах.</p>
+                          </div>
+                        </div>
+                        <div class="form__details-row line form__details-row-copy-decision">
+                          <div class="form__details-left"><p class="form__details-main_ttl">Копія рішення по справі № <span class="form__details-star">*</span></p></div>
+                          <div class="form__details-right line">
+                            <div class="b-input b-input_short"><input type="text" class="b-input-200"><i class="b-input-reset"></i></div>
+                            <div class="form__details-add">
+                              <i class="form__details-add-icon"></i>
+                              <a href="#" class="form__details-add-link">Додати ще один додаток</a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="form__details-row line form__details-row-copy-decision">
+                          <div class="form__details-left"><p class="form__details-main_ttl">Повна назва додатку №2</p></div>
+                          <div class="form__details-right line">
+                            <div class="b-input"><input class="b-input-810" type="text"/><i class="b-input-reset"></i></div>
+                            <div class="form__details-add">
+                              <i class="form__details-add-icon"></i>
+                              <a href="#" class="form__details-add-link">Додати ще один додаток</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="form__details-row line form__details-row-copy-decision" style="display:none;">
+                          <div class="form__details-left"><p class="form__details-main_ttl">Повна назва додатку №3</p></div>
+                          <div class="form__details-right line">
+                            <div class="b-input"><input class="b-input-810" type="text"/><i class="b-input-reset"></i></div>
+                            <div class="form__details-add">
+                              <i class="form__details-add-icon"></i>
+                              <a href="#" class="form__details-add-link">Додати ще один додаток</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="form__details-row line form__details-row-number-copy-decision">
+                            <div class="form__details-left">
+                              <p class="form__details-main_ttl">Якщо є, номер копії рішень<br /> апеляційної та касаційної<br /> інстанцій у цих справах, якщо<br /> справа розглядалася в<br /> апеляційному чи касаційному<br /> порядку <span class="form__details-star">*</span>
+                                <i class="form__details-help">
+                                    <span class="form__details-help-dropdown">
+                                        <img src="img/img09.jpg" width="232" height="329" alt=""/>
+                                    </span>
+                                </i>
+                              </p>
+                            </div>
+                            <div class="form__details-right line">
+                                <div class="fdr_l">
+                                    <div class="b-input-box">
+                                        <div class="b-input"><input type="text" class="b-input-180"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__upload"><a class="btn-upload" href="#">
+                        <i class="btn-upload__icon"></i><p class="btn-upload__ttl">Заява готова! Отримати файл</p></a>
+                    </div>
+                    <div class="form__text-info form__text-info_visible"><strong>*</strong> Будь ласка, заповнiть усi обов’язковi поля</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ftr line">
+    <div class="case">
+        <div class="ftr__inner line">
+            <div class="ftr__left">
+                <span class="hdr__logo-pic"><i class="ico ico_logo"></i></span>
+                <div class="hdr__logo-txt">
+                    <h3>Люстраційний комітет суддів</h3>
+                    <p>ТИМЧАСОВА СПЕЦІАЛЬНА КОМІСІЯ З ПЕРЕВІРКИ СУДДІВ ЗАГАЛЬНОЇ ЮРИСДИКЦІЇ ЯКА ДІЄ ПРИ ВІЩІЙ РАДІ ЮСТИЦІЇ</p>
+                </div>
+            </div>
+            <div class="ftr__right">
+                <p>Заяви подаються на поштову адресу Вищої ради юстиції:<strong>04050 Україна, м. Київ, вул. Студентська, 12-а</strong></p>
+                <p><a class="jsPopupOpen" href="#">Задати питання</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact-popup" class="b-popup" style="display:none;">
+  <div class="b-popup__data">
+    <div class="b-popup__top"><a href="#" class="ico ico_close"></a></div>
+    <h4 class="b-popup__ttl">Задати питання</h4>
+    <div class="form form_contact">
+      <!--<div class="form form_contact form_success">-->
+
+      <!--<div class="form__row form__row_error">-->
+      <!--<div class="input-i">-->
+      <!--<i class="ico ico_user02"></i>-->
+      <!--<input class="input" type="text" placeholder="Ваше имя" />-->
+      <!--<span class="form__error-txt">Пожалуйста, укажите Ваш телефон</span>-->
+      <!--</div>-->
+      <!--</div>-->
+
+      <div class="form__row">
+        <div class="input-i">
+          <i class="ico ico_user02"></i>
+          <input class="input" type="text" placeholder="Ваше имя" />
+          <span class="form__error-txt">Пожалуйста, укажите Ваш телефон</span>
+        </div>
+      </div>
+      <div class="form__row">
+        <div class="input-i">
+          <i class="ico ico_email02"></i>
+          <input class="input" type="text" placeholder="Электронная почта" />
+          <span class="form__error-txt">Пожалуйста, укажите Ваш телефон</span>
+        </div>
+      </div>
+      <div class="form__row">
+        <div class="input-i">
+          <i class="ico ico_phone02"></i>
+          <input class="input" type="text" placeholder="Телефон" />
+        </div>
+        <span class="form__error-txt">Пожалуйста, укажите Ваш телефон</span>
+      </div>
+      <div class="form__row">
+        <div class="input-i">
+          <textarea class="ta" name="" placeholder="Ваш комментарий" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+      <div class="form__row">
+        <a class="btn btn_blue" href="#"><span class="btn__inner">ОТПРАВИТЬ</span></a>
+
+        <!--<a href="#" class="btn btn_blue btn_active"><i class="b-loader"></i> ОТПРАВИТЬ</a>-->
+
+        <!-- кнопка для отправленного состояния -->
+        <!--<a class="btn btn_white" href="#"><span class="btn__inner">ОТЛИЧНО</span></a>-->
+      </div>
+      <div class="form__note">
+        <span>Ваше сообщение отправлено</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-popup__bg"></div>
+</div>
+
+</body>
+</html>
